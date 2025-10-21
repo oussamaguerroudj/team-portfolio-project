@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Member 1 - SE Team Portfolio</title>
+    <link rel="stylesheet" href="assets/Css/style.css">
+</head>
+<body class="profile-page">
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-title">SE Team</span>
+                        <span class="logo-subtitle">ENSIA Project</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="index.html#team" class="nav-link">Team</a>
+                    <a href="index.html#about" class="nav-link">About</a>
+                    <a href="index.html#repository" class="nav-link">Repository</a>
+                </nav>
+
+                <!-- Desktop CTA -->
+                <div class="header-cta">
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                            <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                        </svg>
+                        Repository
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <svg class="menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                    <svg class="close-icon hidden" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <nav class="nav-mobile hidden" id="mobileMenu">
+                <a href="index.html" class="nav-link-mobile">Home</a>
+                <a href="index.html#team" class="nav-link-mobile">Team</a>
+                <a href="index.html#about" class="nav-link-mobile">About</a>
+                <a href="index.html#repository" class="nav-link-mobile">Repository</a>
+                <div class="mobile-cta">
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                            <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                        </svg>
+                        Repository
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- Back Button -->
+            <div class="back-btn">
+                <a href="index.html" class="btn btn-outline">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="19" y1="12" x2="5" y2="12"></line>
+                        <polyline points="12 19 5 12 12 5"></polyline>
+                    </svg>
+                    Back to Team
+                </a>
+            </div>
+
+            <!-- Profile Content -->
+            <div class="profile-container">
+                <!-- Sidebar -->
+                <aside class="profile-sidebar">
+                    <div class="profile-card">
+                        <!-- Avatar -->
+                        <div class="profile-avatar-large">
+                            <img src="assets/img/SARAH.png" alt="Sarah">
+                        </div>
+                        
+                        <!-- Name and Info -->
+                        <h2 class="profile-name">Sarah Ameziane </h2>
+                        <p class="profile-role">AI Engineering Student </p>
+                        <p class="profile-id">ENSIA - Class of 2026</p>
+
+                        <div class="separator"></div>
+
+                        <!-- Quick Info -->
+                        <ul class="profile-info-list">
+                            <li class="profile-info-item">
+                                <svg class="profile-info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                                <span>ENSIA, Algeria</span>
+                            </li>
+                            <li class="profile-info-item">
+                                <svg class="profile-info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                                </svg>
+                                <span>Year 3 - 2024/2025</span>
+                            </li>
+                            <li class="profile-info-item">
+                                <svg class="profile-info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                </svg>
+                                <span>IT team Member at CSA </span>
+                            </li>
+                        </ul>
+
+                        <div class="separator"></div>
+
+                        <!-- Action Buttons -->
+                        <div class="profile-buttons">
+                            <a href="https://github.com/Sarah-dev55" target="_blank" class="btn btn-primary">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                                    <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                                </svg>
+                                View GitHub Profile
+                            </a>
+                            <a href="mailto:sarah.ameziane@ensia.edu.dz" class="btn btn-outline">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                                Email
+                            </a>
+                        </div>
+                    </div>
+                </aside>
+
+                    <!-- Main Content -->
+                    <div class="profile-main">
+                        <!-- Biography Card -->
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="card-title">About</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>
+                                    Third-year student at the National Higher School of Artificial Intelligence (ENSIA), driven by curiosity and a commitment to learning at the intersection of technology, innovation, and problem-solving. Web Development Enthusiast with a passion for building responsive, user-centered web applications using modern frameworks and tools like React and Tailwind CSS.
+                                </p>
+                                <div style="margin-top: 1rem;">
+                                    <p style="margin-bottom: 0.75rem; font-weight: 500;">Key Leadership & Professional Roles:</p>
+                                    <ul style="list-style: disc; margin-left: 1.5rem; color: var(--slate-600); line-height: 1.8;">
+                                        <li style="margin-bottom: 0.5rem;">Former Planning Cell Manager at ETC Club — coordinated diverse teams, managed logistics, and organized high-impact events including ETCODE</li>
+                                        <li style="margin-bottom: 0.5rem;">Participated in the Quantum Corner Training Program exploring quantum computing</li>
+                                        <li style="margin-bottom: 0.5rem;">Technical Lead of the Software Engineering Team at K2A Auto Agency — ensuring coordination between project owners and developers</li>
+                                        <li style="margin-bottom: 0.5rem;">IT Engineering Intern at Command Strategy Advisory — Three-month internship (July-September 2025) working on IT solutions and strategic projects</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Technical Competencies Card -->
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="card-title">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                    </svg>
+                                    Technical Competencies
+                                </h3>
+                            </div>
+                            <div class="card-content">
+                                <div class="skill-grid">
+                                    <div class="skill-badge">React</div>
+                                    <div class="skill-badge">SQL</div>
+                                    <div class="skill-badge">HTML/CSS</div>
+                                    <div class="skill-badge">C++</div>
+                                    <div class="skill-badge">Python</div>
+                                    <div class="skill-badge">Git/GitHub</div>
+                                    <div class="skill-badge">Web Development</div>
+                                    <div class="skill-badge">Java </div>
+                                    <div class="skill-badge">JavaScript</div>
+                                    <div class="skill-badge">AWS Cloud</div>
+                                    <div class="skill-badge">Generative AI</div>
+                                    <div class="skill-badge">Database Design</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Languages Card -->
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="card-title">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                                    </svg>
+                                    Languages
+                                </h3>
+                            </div>
+                            <div class="card-content">
+                                <div class="skill-grid">
+                                    <div class="skill-badge">Kabyle (Native)</div>
+                                    <div class="skill-badge">Arabic (Fluent)</div>
+                                    <div class="skill-badge">French (Fluent)</div>
+                                    <div class="skill-badge">English (Professional)</div>
+                                </div>
+                            </div>
+                        </div>
+
+                            <!-- Education & Training Card -->
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="card-title">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                                        <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                                    </svg>
+                                    Education & Training
+                                </h3>
+                            </div>
+                            <div class="card-content">
+                                <div class="highlight-list">
+                                    <div class="highlight-item">
+                                        <div class="highlight-bar"></div>
+                                        <div class="highlight-content">
+                                            <h4>Engineering Degree in AI & Data Science</h4>
+                                            <p>
+                                                <strong>ENSIA (National Higher School of AI)</strong> - September 2023 to Present<br>
+                                                Engineering program focused on AI and data science, combining mathematical foundations, programming, 
+                                                web development, and advanced AI techniques with big data and intelligent modeling.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="highlight-item">
+                                        <div class="highlight-bar purple"></div>
+                                        <div class="highlight-content">
+                                            <h4>Generative AI Essentials on AWS</h4>
+                                            <p>
+                                                <strong>Formini Professional Training Center, Algiers</strong> - March 2025 to May 2025<br>
+                                                Structured training in three phases: AWS Cloud Computing introduction, practical workshops on AWS services, 
+                                                and Generative AI Essentials certification. Acquired skills in cloud computing and generative AI.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="highlight-item">
+                                        <div class="highlight-bar"></div>
+                                        <div class="highlight-content">
+                                            <h4>Baccalaureate with Distinction</h4>
+                                            <p>
+                                                <strong>Ammar Khoudja M'henna High School</strong> - 2022/2023<br>
+                                                Scientific Branch - GPA 4.0 (18.55/20) - Recognized for academic excellence
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Professional Experience Card -->
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="card-title">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                    </svg>
+                                    Professional Experience
+                                </h3>
+                            </div>
+                            <div class="card-content">
+                                <div class="highlight-list">
+                                    <div class="highlight-item">
+                                        <div class="highlight-bar"></div>
+                                        <div class="highlight-content">
+                                            <h4>IT Engineering Intern - Command Strategy Advisory</h4>
+                                            <p>
+                                                <strong>July 2025 - September 2025</strong><br>
+                                                Three-month internship working on IT solutions and strategic consulting projects. 
+                                                Gained practical experience in enterprise-level software development and strategic advisory services.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="highlight-item">
+                                        <div class="highlight-bar purple"></div>
+                                        <div class="highlight-content">
+                                            <h4>Planning Manager - ENSIA Tech Community</h4>
+                                            <p>
+                                                <strong>February 2025</strong><br>
+                                                Planning and monitoring of club events (workshops, training sessions, conferences). Team coordination, 
+                                                schedule establishment, and logistics management. Developed skills in organization and team management.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="highlight-item">
+                                        <div class="highlight-bar"></div>
+                                        <div class="highlight-content">
+                                            <h4>Opportunities Cell Manager - ENSIA Tech Community</h4>
+                                            <p>
+                                                <strong>September 2024</strong><br>
+                                                Research and sharing of relevant opportunities (competitions, hackathons, workshops, internships) 
+                                                for club members aligned with their academic and professional goals.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="highlight-item">
+                                        <div class="highlight-bar purple"></div>
+                                        <div class="highlight-content">
+                                            <h4>Development Department Member - ENSIA Tech Community</h4>
+                                            <p>
+                                                <strong>October 2023 - February 2025</strong><br>
+                                                Learning HTML/CSS, GitHub usage, database fundamentals, and React.js. 
+                                                Completed practical exercises to strengthen technical skills.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Projects & Achievements Card -->
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="card-title">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                                    </svg>
+                                    Projects & Achievements
+                                </h3>
+                            </div>
+                            <div class="card-content">
+                                <div class="highlight-list">
+                                    <div class="highlight-item">
+                                        <div class="highlight-bar"></div>
+                                        <div class="highlight-content">
+                                            <h4>Hired In - Web Platform Project</h4>
+                                            <p>
+                                                Web platform connecting recruiters with job seekers. HTML/CSS/JavaScript interface, 
+                                                MySQL database, PHP backend. Full-stack development project demonstrating end-to-end web development skills.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="highlight-item">
+                                        <div class="highlight-bar purple"></div>
+                                        <div class="highlight-content">
+                                            <h4>Stock Investment Optimization System (Team Leader)</h4>
+                                            <p>
+                                                <strong>Introduction to AI Module Project</strong><br>
+                                                Intelligent decision support system for financial investments. Implementation of A* algorithms 
+                                                and greedy search, scenario simulation, and team coordination. Led the project from conception to delivery.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="highlight-item">
+                                        <div class="highlight-bar"></div>
+                                        <div class="highlight-content">
+                                            <h4>ChronoHealth - Hackstart Ideathon Winner</h4>
+                                            <p>
+                                                <strong>December 2023 - ENSIA Tech Community</strong><br>
+                                                Designed a health application using Figma for UI/UX, pitched to jury panel. 
+                                                Demonstrated skills in teamwork, creativity, and stress management under competition conditions.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Certifications Card -->
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="card-title">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="8" r="7"></circle>
+                                        <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                                    </svg>
+                                    Certifications
+                                </h3>
+                            </div>
+                            <div class="card-content">
+                                <div class="contribution-list">
+                                    <div class="contribution-item" style="cursor: default;">
+                                        <div class="contribution-content">
+                                            <h4> DataCamp - Intermediate Python</h4>
+                                            <p>Online Certification - September 2024</p>
+                                        </div>
+                                    </div>
+                                    <div class="contribution-item" style="cursor: default;">
+                                        <div class="contribution-content">
+                                            <h4> DataCamp - Introduction to Python</h4>
+                                            <p>Online Certification - August 2024</p>
+                                        </div>
+                                    </div>
+                                    <div class="contribution-item" style="cursor: default;">
+                                        <div class="contribution-content">
+                                            <h4> ETC Quantum Corner Training Program</h4>
+                                            <p>Participation Certificate - April 2024 | Skills acquired in quantum technologies and practical applications</p>
+                                        </div>
+                                    </div>
+                                    <div class="contribution-item" style="cursor: default;">
+                                        <div class="contribution-content">
+                                            <h4> Hackstart Ideathon Winner</h4>
+                                            <p>ENSIA Tech Community - December 2023 | ChronoHealth health application project</p>
+                                        </div>
+                                    </div>
+                                    <div class="contribution-item" style="cursor: default;">
+                                        <div class="contribution-content">
+                                            <h4> BMC Workshop Certificate</h4>
+                                            <p>Business Model Canvas - Numidia Institute of Technology - April 2024</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Connect & Collaborate Card -->
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="card-title">Connect & Collaborate</h3>
+                            </div>
+                            <div class="card-content">
+                                <div class="contribution-list">
+                                    <a href="https://github.com/Sarah-dev55" target="_blank" class="contribution-item">
+                                        <div class="contribution-content">
+                                            <h4>GitHub Profile</h4>
+                                            <p>View my code contributions, projects, and repositories</p>
+                                        </div>
+                                        <svg class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                            <polyline points="15 3 21 3 21 9"></polyline>
+                                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                                        </svg>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/sarah-ameziane-ab546a305/" target="_blank" class="contribution-item">
+                                        <div class="contribution-content">
+                                            <h4>LinkedIn Profile</h4>
+                                            <p>Connect with me professionally on LinkedIn</p>
+                                        </div>
+                                        <svg class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                            <rect x="2" y="9" width="4" height="12"></rect>
+                                            <circle cx="4" cy="4" r="2"></circle>
+                                        </svg>
+                                    </a>
+                                    <a href="mailto:sarah.ameziane@ensia.edu.dz" class="contribution-item">
+                                        <div class="contribution-content">
+                                            <h4>Email Contact</h4>
+                                            <p>sarah.ameziane@ensia.edu.dz</p>
+                                        </div>
+                                        <svg class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                            <polyline points="22,6 12,13 2,6"></polyline>
+                                        </svg>
+                                    </a>
+                                    <div class="contribution-item" style="cursor: default;">
+                                        <div class="contribution-content">
+                                            <h4>📍 Location</h4>
+                                            <p>Tizi Ouzou, Algeria | +213 557 52 00 58</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Brand Section -->
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <div class="logo-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-title">SE Team Portfolio</span>
+                            <span class="logo-subtitle">ENSIA - Year 3</span>
+                        </div>
+                    </a>
+                    <p class="footer-description">
+                        Software Engineering module project by third-year students at the National Higher School of AI.
+                        This portfolio demonstrates our team collaboration skills and version control proficiency using Git and GitHub.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://github.com" target="_blank" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                                <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                            </svg>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                            </svg>
+                        </a>
+                        <a href="mailto:contact@ensia.edu.dz" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project Links -->
+                <div class="footer-links">
+                    <h3>Project</h3>
+                    <ul>
+                        <li><a href="index.html#about">About Project</a></li>
+                        <li><a href="index.html#team">Team Members</a></li>
+                        <li><a href="https://github.com" target="_blank">GitHub Repo</a></li>
+                        <li><a href="index.html#repository">Documentation</a></li>
+                    </ul>
+                </div>
+
+                <!-- Resources Links -->
+                <div class="footer-links">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="https://ensia.edu.dz" target="_blank">ENSIA Website</a></li>
+                        <li><a href="#">Git Tutorial</a></li>
+                        <li><a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a></li>
+                        <li><a href="#">HTML/CSS Guide</a></li>
+                    </ul>
+                </div>
+
+                <!-- Technologies Links -->
+                <div class="footer-links">
+                    <h3>Technologies</h3>
+                    <ul>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS</a></li>
+                        <li><a href="https://github.com/Sarah-dev55/team-portfolio-project" target="_blank">GitHub Pages</a></li>
+                        <li><a href="https://git-scm.com" target="_blank">Git</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Bar -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <p>© 2025 ENSIA Software Engineering Team. Academic Project.</p>
+                    <div class="footer-bottom-links">
+                        <a href="index.html#about">About</a>
+                        <a href="index.html#team">Team</a>
+                        <a href="https://github.com/Sarah-dev55/team-portfolio-project" target="_blank">
+                            View on GitHub
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
