@@ -1,0 +1,30 @@
+{
+  "name": "team-portfolio-project",
+  "version": "1.0.0",
+  "description": "This repository hosts the **Team Portfolio Website**, a static web project showcasing the profiles, skills, and GitHub accounts of all team members.  \r The system is designed, built, and deployed collaboratively on **GitHub Pages**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarah-dev55/team-portfolio-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Sarah-dev55/team-portfolio-project/issues"
+  },
+  "homepage": "https://github.com/Sarah-dev55/team-portfolio-project#readme",
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "typescript": "^5.9.3"
+  }
+}
