@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Member 3 - ENSIA Software Engineering</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        .content-wrapper {
+            display: flex;
+            min-height: 600px;
+        }
+
+        .sidebar {
+            width: 300px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .avatar {
+            width: 120px;
+            height: 120px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            border: 3px solid white;
+        }
+
+        .sidebar h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .sidebar p {
+            font-size: 14px;
+            opacity: 0.9;
+            margin-bottom: 20px;
+        }
+
+        .info-item {
+            width: 100%;
+            text-align: left;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+        }
+
+        .info-item label {
+            font-size: 12px;
+            opacity: 0.8;
+            display: block;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+        }
+
+        .info-item span {
+            font-size: 14px;
+            display: block;
+            word-break: break-word;
+        }
+
+        .info-item a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .info-item a:hover {
+            text-decoration: underline;
+        }
+
+        .main-content {
+            flex: 1;
+            padding: 40px;
+            overflow-y: auto;
+        }
+
+        .card {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        .card h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+
+        .card p {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .card ul {
+            margin-left: 20px;
+            color: #555;
+            line-height: 1.8;
+        }
+
+        .card li {
+            margin-bottom: 8px;
+        }
+
+        @media (max-width: 768px) {
+            .content-wrapper {
+                flex-direction: column;
+            }
+
+            .sidebar {
+                width: 100%;
+                padding: 30px 20px;
+            }
+
+            .main-content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content-wrapper">
+            <div class="sidebar">
+                <div class="avatar">M3</div>
+                <h1>Toubal Mohamed Sahnoune</h1>
+                <p>Software Engineer</p>
+
+                <div class="info-item">
+                    <label>Student ID</label>
+                    <span>202331601916</span>
+                </div>
+
+                <div class="info-item">
+                    <label>Email</label>
+                    <span><a href="mailto:mohamed.sahnoune.toubal@ensia.edu.dz">mohamed.sahnoune.toubal@ensia.edu.dz</a></span>
+                </div>
+
+                <div class="info-item">
+                    <label>GitHub</label>
+                    <span><a href="https://github.com/mohameddddt" target="_blank">https://github.com/mohameddddt</a></span>
+                </div>
+            </div>
+
+            <div class="main-content">
+                <div class="card">
+                    <h2>About</h2>
+                    <p>I am a dedicated AI engineering student with a strong passion for technology and innovation. I love solving complex problems through intelligent systems and continuous learning. My goal is to build impactful AI solutions that make a real difference in people’s lives.</p>
+                </div>
+
+                <div class="card">
+                    <h2>Technical Competencies</h2>
+                    <ul>
+                        <li>Full-Stack Web Development (React, Node.js, Express).</li>
+                        <li>Database Design and Management (SQL, MongoDB).</li>
+                        <li>C++ and Qt Development.</li>
+                        <li>Version Control (Git, GitHub)</li>
+                        <li>Python Programming.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h2>Academic & Project Focus</h2>
+                    <p>Specializing in backend development and system architecture, I focuse on creating
+                        robust and efficient solutions. My academic interests include distributed systems,
+                        microservices architecture, and DevOps practices.</p>
+                </div>
+
+                <div class="card">
+                    <h2>Project Contributions</h2>
+                    <p>I Contributed to multiple projects including Ai project, database optimization, and deployment
+                        pipeline setup. Known for writing clean, maintainable code and collaborating effectively with
+                        team members to deliver high-quality software solutions.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
